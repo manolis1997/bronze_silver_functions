@@ -12,5 +12,5 @@ dependencies = [
 requires = ["setuptools"]
 
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["utils"]
 exclude = [".venv*"]
