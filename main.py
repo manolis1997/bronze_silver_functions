@@ -1,5 +1,5 @@
-from etl_functions.bronze.bronze_class import BronzeTransformations
-from etl_functions.silver.silver_class import SilverTransformations
+from utils.etl_functions.bronze.bronze_class import BronzeTransformations
+from utils.etl_functions.silver.silver_class import SilverTransformations
 
 from databricks.connect.session import DatabricksSession as SparkSession
 
